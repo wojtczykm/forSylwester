@@ -1,0 +1,57 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+#kontener {
+	width:100%;
+	background-image:url("../images/lama.png");
+	background-attachment:fixed;
+}
+
+#jeden {
+	width:100%;
+	margin-left:360px;
+	padding-top:30px;
+	margin-bottom:30px;
+    
+}
+
+img {
+	box-shadow:-8px 9px 9px grey;
+}
+
+#dwa {
+	width:100%;
+	margin-left:360px;
+	padding-top:30px;
+	margin-bottom:30px;
+}
+
+
+#trzy {
+	width:100%;
+	margin-left:360px;
+	padding-top:30px;
+	margin-bottom:30px;
+}
+
+
+#cztery {
+	width:100%;
+	margin-left:360px;
+	padding-top:30px;
+	margin-bottom:30px;
+}
+
+
+#pięć {
+	width:100%;
+	margin-left:360px;
+	padding-top:30px;
+	margin-bottom:30px;
+}
+
+

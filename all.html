@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="matematyka">
+<meta name="keywords" content="js css html matematyka egzamin">
+<meta name="robots" content="index">
+<meta name="author" content="monika">
+<meta http-equiv="content-language" content="pl">
+
+<link rel="stylesheet" type="text/css" href="./css/all.css">
+<title>
+dynamicznie
+</title>
+</head>
+<body id="cos">
+
+<div id="kontener">
+<div id="jeden">
+<img src="./images/1.gif" width="60%" >
+</div>
+<div id="dwa">
+</a>
+<img src="./images/2.gif" width="60%" onclick="pytanie1()">
+</div>
+<div id="trzy">
+<img src="./images/3.gif" width="60%" onclick="pytanie2()">
+</div>
+<div id="cztery">
+<img src="./images/4.gif" width="60%" onclick="raz()">
+</div>
+<div id="pięć">
+<img src="./images/5.gif" width="60%">
+</div>
+
+
+
+
+</div>
+
+
+
+<script type="text/javascript">
+
+
+function pytanie2(){
+do {
+	var haslo=prompt("podaj haslo: imię twórcy Java script'u")
+	if (haslo.toLowerCase() !== "brendan")
+		alert("TO NIE TO IMIĘ, sprobuj jeszcze raz")
+	else 
+	if (window.confirm('ZGADZA SIĘ!!! kliknij "ok" aby obejrzeć stronę "matematyka" w javascript ')) 
+{
+window.open('http://monika.msarna.pl/matematykajs/matematykajs/matematyka.html','_blank');
+};
+} while (haslo.toLowerCase() !="brendan")
+
+};
+
+function pytanie1(){
+do {
+	var haslo=prompt("podaj haslo: suma zapisana w systemie dziesiętnym liczb binarnych 10010 oraz 10! POWODZENIA!")
+	if (haslo !== "20")
+		alert("ŹLE POLICZYŁAŚ/EŚ, sprobuj jeszcze raz")
+	else 
+	if (window.confirm('ZGADZA SIĘ!!! kliknij "ok" aby obejrzeć stronę "matematyka" w podstronach ')) 
+{
+window.open('http://monika.msarna.pl/matematykapod/matematykapod/html/matematykapod.html','_blank');
+};
+} while (haslo !="20")
+
+};
+
+function raz(){
+if (window.confirm('Tym razem bez zapytania ;) proszę zerknąć! ')) 
+{
+window.open('http://antek.msarna.pl/quiz/stronaantoni.html','_blank');
+};}
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
